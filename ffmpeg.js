@@ -192,7 +192,6 @@ class Device {
 
     }
 
-
     testMode(width, height, framerate) {
             
             for (let i = 0; i < this.#modes.length; i++) {
