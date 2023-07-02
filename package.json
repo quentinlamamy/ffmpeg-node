@@ -1,12 +1,19 @@
 {
   "name": "ffmpeg-node",
-  "version": "0.1",
+  "version": "1.0.0",
   "description": "node js wrapper for ffmpeg",
   "main": "ffmpeg.js",
   "type":"module",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/quentinlamamy/ffmpeg-node.git"
+  },
   "author": "Quentin Lamamy",
-  "license": "Creative Commons Attribution-ShareAlike 4.0 International by-sa"
+  "license": "Creative Commons Attribution-ShareAlike 4.0 International by-sa",
+  "keywords": [
+    "ffmpeg"
+  ]
 }
