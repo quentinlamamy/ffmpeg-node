@@ -110,8 +110,8 @@ class Device {
     async detectFeatures(){
 
         if(this.#type == 'video'){
-            await this.detectModes()
-            await this.detectPixelFormats()
+            await this.#detectModes()
+            await this.#detectPixelFormats()
         }
 
     }
@@ -121,7 +121,7 @@ class Device {
      * @tips: Modes are a combination of resolution and framerate (min and max)
      * @returns {Promise}
      */
-    async detectModes() {
+    async #detectModes() {
 
         this.#modes = new Array()
 
@@ -160,7 +160,7 @@ class Device {
      * Detect available pixel formats for this devices. Pixel formats are stored in the #pixelFormats property
      * @returns {Promise}
      */
-    async detectPixelFormats() {
+    async #detectPixelFormats() {
 
         return new Promise((resolve, reject) => {
 
