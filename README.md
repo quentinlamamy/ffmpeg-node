@@ -20,15 +20,6 @@
 
 # Installation
 
-Install ffmpeg
-```bash
-brew install ffmpeg
-```
-Install the package
-```javascript
-npm i ffmpeg-node
-```
-
 # Usage
 
 ```javascript
@@ -38,11 +29,27 @@ import Ffmpeg from './ffmpeg.js'
 List avaiable avfoundation devices
 
 ```javascript
+// Get device list
 let deviceList = await Ffmpeg.listDevices()
+
+// Print device list
 console.log(deviceList.map(d => "[" + d.index + "] " + d.name))
 ```
 <img width="508" alt="image" src="https://github.com/quentinlamamy/ffmpeg-node/assets/6804887/112e55d0-527a-44cc-95b2-c91d4cd93b6a">
 
+Show device informations and features
+```javascript
+// Get device list
+let deviceList = await Ffmpeg.listDevices()
+let device     = deviceList[0]
+
+// Retrieve devices features
+await device.detectFeatures()
+
+// Print devices features
+device.infos()
+```
+<img width="624" alt="image" src="https://github.com/quentinlamamy/ffmpeg-node/assets/6804887/53318c03-0983-43cb-85b5-d4e100f4370a">
 
 # License
 
