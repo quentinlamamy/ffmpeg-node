@@ -41,6 +41,8 @@ List avaiable avfoundation devices
 let deviceList = await Ffmpeg.listDevices()
 console.log(deviceList.map(d => "[" + d.index + "] " + d.name))
 ```
+<img width="508" alt="image" src="https://github.com/quentinlamamy/ffmpeg-node/assets/6804887/112e55d0-527a-44cc-95b2-c91d4cd93b6a">
+
 
 # License
 
