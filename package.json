@@ -1,5 +1,5 @@
 {
-  "name": "ffmpeg-node",
+  "name": "ffmpeg-panda",
   "version": "1.0.0",
   "description": "node js wrapper for ffmpeg",
   "main": "ffmpeg.js",
