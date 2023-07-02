@@ -1,0 +1,12 @@
+{
+  "name": "ffmpeg-node",
+  "version": "0.1",
+  "description": "node js wrapper for ffmpeg",
+  "main": "ffmpeg.js",
+  "type":"module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Quentin Lamamy",
+  "license": "Creative Commons Attribution-ShareAlike 4.0 International by-sa"
+}

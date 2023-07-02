@@ -44,6 +44,6 @@ console.log(deviceList.map(d => "[" + d.index + "] " + d.name))
 
 # License
 
-This work is licensed under a Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License
+This work is licensed under a [Creative Commons Attribution-ShareAlike 4.0 International](http://creativecommons.org/licenses/by-sa/4.0/)
 
-[![by-nc-sa](https://i.creativecommons.org/l/by-nc-sa/4.0/88x31.png)](https://i.creativecommons.org/l/by-nc-sa/4.0/88x31.png)
+[![by-sa](https://i.creativecommons.org/l/by-sa/4.0/88x31.png)](http://creativecommons.org/licenses/by-sa/4.0/)
