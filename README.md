@@ -17,6 +17,14 @@
 
 # Installation
 
+```bash
+brew install ffmpeg
+```
+
+```javascript
+npm i ffmpeg-panda
+```
+
 # Usage
 
 ```javascript
