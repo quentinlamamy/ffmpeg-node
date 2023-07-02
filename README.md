@@ -2,7 +2,7 @@
 
 🏗️  This project is currently not on npm, let me time to create the repo and upload it  🏗️ 
 
-⚠️ This project is still in beta, it's work only on OSX ⚠️
+⚠️ This project is still in beta, it works only on OSX ⚠️
 </div>
 
 <div align="center">
