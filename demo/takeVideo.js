@@ -2,9 +2,9 @@ import Ffmpeg from '../ffmpeg.js'
 
 let deviceList = await Ffmpeg.listDevices()
 
-let device = deviceList[3]
+let device = deviceList[1]
 
 await device.detectFeatures()
 
-let filename = await device.takePicture()
+let filename = await device.takeVideo("test.avi",10)
 console.log("File created: " + filename)
