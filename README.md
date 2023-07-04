@@ -17,6 +17,10 @@
 # Installation
 
 ```bash
+brew install ffmpeg
+```
+
+```bash
 npm i ffmpeg-panda
 ```
 
