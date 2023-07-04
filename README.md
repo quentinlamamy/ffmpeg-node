@@ -122,6 +122,8 @@ Take a video with the device
 | fps           | string | the framerate                |
 | pixel format  | string | the pixel format             |
 
+<img src="https://github.com/quentinlamamy/ffmpeg-panda/assets/6804887/01772124-4f77-4885-a5dc-0e0473c81f5d" width="700"/>
+
 # License
 
 This work is licensed under a [Creative Commons Attribution-ShareAlike 4.0 International](http://creativecommons.org/licenses/by-sa/4.0/)
