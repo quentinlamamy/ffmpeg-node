@@ -1,6 +1,6 @@
 {
   "name": "ffmpeg-panda",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "node js wrapper for ffmpeg",
   "main": "ffmpeg.js",
   "type":"module",

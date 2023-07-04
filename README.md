@@ -1,13 +1,10 @@
 <div align="center">
-⚠️ This project is still in beta, it works only on OSX ⚠️
-</div>
 
-<div align="center">
-
-# ffmpeg-node
+# ffmpeg-panda
 
 ![Node](https://img.shields.io/badge/Node.js-43853D?style=for-the-badge&logo=node.js&logoColor=white)
 ![Bash](https://img.shields.io/badge/Shell_Script-121011?style=for-the-badge&logo=gnu-bash&logoColor=white)
+![OSX](https://img.shields.io/badge/OSX-000000?style=for-the-badge&logo=apple&logoColor=white)
 
  A ffmpeg nodejs wrapper to access to ffmpeg withing your nodejs code
 
@@ -15,7 +12,13 @@
 
 </div>
 
+> ⚠️ This project is still in beta, it works only on OSX, windows and linux version version comming soon ⚠️
+
 # Installation
+
+```bash
+npm i ffmpeg-panda
+```
 
 # Usage
 
