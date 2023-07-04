@@ -1,6 +1,6 @@
 test.js
 .DS_Store
-
+demo/.DS_Store
 /demo/*.avi
 /demo/*.jpg
 
