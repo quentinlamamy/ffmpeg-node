@@ -60,6 +60,7 @@ class ffmpeg {
     }
 
 }
+
 export default ffmpeg
 
 /**

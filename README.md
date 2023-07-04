@@ -122,6 +122,19 @@ Take a video with the device
 | fps           | string | the framerate                |
 | pixel format  | string | the pixel format             |
 
+> By default if no argument given, it will use the last mode of the list (the one width max width) and the first pixel format of the list. The output filename will be : output.avi
+
+> ❌ Will return a rejected promise if given parameters doesn't fit an avaiable mode
+
+```javascript
+let deviceList = await Ffmpeg.listDevices()
+let device = deviceList[0]
+
+await device.detectFeatures()
+let filename = await device.takeVideo("test.avi",10)
+console.log("File created: " + filename)
+```
+
 <img src="https://github.com/quentinlamamy/ffmpeg-panda/assets/6804887/01772124-4f77-4885-a5dc-0e0473c81f5d" width="700"/>
 
 # License
