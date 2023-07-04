@@ -12,7 +12,7 @@
 
 </div>
 
-> ⚠️ This project is still in beta, it works only on OSX, windows and linux version version comming soon ⚠️
+> ⚠️ This project is still in beta, it works only on OSX, windows and linux version comming soon ⚠️
 
 # Installation
 
