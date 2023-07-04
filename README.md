@@ -147,4 +147,4 @@ This work is licensed under a [Creative Commons Attribution-ShareAlike 4.0 Inter
 A bug ? An idea of feature ? [Fill an issue on github](https://github.com/quentinlamamy/ffmpeg-panda/issues)
 
 # Support
-<a href="https://www.buymeacoffee.com/roniemartinez" target="_blank"><img src="https://cdn.buymeacoffee.com/buttons/default-orange.png" alt="Buy Me A Coffee" height="41" width="174"></a>
+<a href="https://www.buymeacoffee.com/quentinlamamy" target="_blank"><img src="https://cdn.buymeacoffee.com/buttons/default-orange.png" alt="Buy Me A Coffee" height="41" width="174"></a>
